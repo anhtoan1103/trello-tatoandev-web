@@ -5,10 +5,10 @@ import './Card.scss'
 function Card(props) {
     const {card} = props
     return (
-        <li className="card-item">
-            {card.cover &&<img src={card.cover} alt="heheh"></img>}
+        <div className="card-item">
+            {card.cover &&<img draggable="false" src={card.cover} alt="heheh"></img>}
             {card.title}
-        </li>
+        </div>
     )
 }
 

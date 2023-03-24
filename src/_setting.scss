@@ -2,10 +2,16 @@
 
 $gap: 10px;
 
+// appbar + boardbar + boardContent = 99vh, 1vh for scrollbar
+$narbar-app-height: 5vh;
+$narbar-board-height: 6vh;
+$board-content-height: 88vh;
+
+// colors
 $board-bg-color: #0079bf;
 $common-element-bg: rgba(255, 255, 255, .24);
 
-//screen
+// screens
 $screen-lg: 1201px;
 $screen-md: 992px;
 $screen-sm: 768px;
