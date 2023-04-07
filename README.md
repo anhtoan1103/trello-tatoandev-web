@@ -4,6 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Command to init this project on Ubuntu:
+npm install --legacy-peer-deps
+
+npm i sass --save-dev --legacy-peer-deps
+
+## Command to init this project on Windows: 
+npm install
+
 In the project directory, you can run:
 
 ### `npm start`
